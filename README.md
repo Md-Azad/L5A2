@@ -27,3 +27,11 @@
 -- WHERE clause is used to impose conditions in the SELECT statement. Using the WHERE condition in a SELECT statement, we can filter and get only data that meets the condition. The benefit of using WHERE is that the query takes less time since it only returns its condition-satisfied data.
 
 -- SELECT স্টেটমেন্টে শর্ত আরোপ করার জন্য WHERE ক্লজ ব্যবহার করা হয়। SELECT স্টেটমেন্টে WHERE কন্ডিশন ব্যবহার করে আমরা ডেটা ফিল্টার করতে পারি এবং কেবলমাত্র সেই ডেটা পেতে পারি যা শর্ত পূরণ করে। WHERE ব্যবহারের সুবিধা হল যে কোয়েরিটি কম সময় নেয় কারণ এটি কেবল তার শর্ত পূরণ করে এমন ডেটা ফেরত দেয়।
+
+## How can you modify data using UPDATE statements?
+
+-- UPDATE statement modify data of a table but keeps the table structure unchanged. To change the value uses SET column_name and value along with WHERE clause to find the certain data. For example:
+UPDATE user_table SET column1 = value1 WHERE id= '1';
+
+-- UPDATE স্টেটমেন্ট একটি টেবিলের ডেটা পরিবর্তন করে কিন্তু টেবিলের কাঠামো অপরিবর্তিত রাখে। মান পরিবর্তন করতে, নির্দিষ্ট ডেটা খুঁজে পেতে WHERE ক্লজের সাথে SET কলামের নাম এবং মান ব্যবহার করুন। উদাহরণস্বরূপ:
+UPDATE user_table SET column1 = value1 WHERE id= '1';
