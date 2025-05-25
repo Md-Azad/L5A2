@@ -1,3 +1,5 @@
+### NB: I used google translate to make the answers in Bangla. Since I am not comfortable writing bangla in my computer. That is why I kept the English version for better understanding since google translator sometimes translates with unconventional words.
+
 ## What is Postgresql?
 
 -- PostgreSQL is a powerfull and open-source relation database management system. It is known for it's scalibility, modern features and reliability. SQL commands supports and JSON querying make it one of the best choice for complex data operations. It is one of the best selection to developers and big tech indrustries for secure, robust, extensibility, and ACID compliance.
